@@ -28,9 +28,9 @@ rsync avP <directory_to_be_synced> rsync://<ip_of_host_where_my_rsyncd_is_runnin
 
     ```
   - Using docker cli:
-  ```shell
-  docker run -it --volumes-from my_rsyncd <container_name> /bin/sh
-  ```
+    ```shell
+    docker run -it --volumes-from my_rsyncd <container_name> /bin/sh
+    ```
 
 --------
 --------
